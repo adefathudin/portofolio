@@ -1,5 +1,4 @@
 "use client";
-import { useEffect } from "react";
 import { Navbar } from "./component/navbar";
 import Footer from "./component/footer";
 import RightbarArticles from "./component/widget/rightbar_articles";
@@ -8,26 +7,6 @@ import RightbarTools from "./component/widget/rightbar_tools";
 import LeftbarProfile from "./component/widget/leftbar_profile";
 
 export default function Home() {
-  useEffect(() => {
-    window.onscroll = function () {
-      let header = document.querySelector("header");
-      let fixedNav = header?.offsetTop;
-
-      if (window.pageYOffset > 0) {
-        header?.classList.add("navbar-fixed");
-      } else {
-        header?.classList.remove("navbar-fixed");
-      }
-    };
-
-    const hamberger = document.querySelector("#hamberger");
-    const navMenu = document.querySelector("#nav-menu");
-    hamberger?.addEventListener("click", function () {
-      hamberger.classList.toggle("hamberger-active");
-      navMenu?.classList.toggle("hidden");
-    });
-  });
-
   return (
     <main>
       <div className="flex flex-col h-screen">

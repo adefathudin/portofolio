@@ -1,5 +1,4 @@
 "use client";
-import { useEffect } from "react";
 import { Navbar } from "../component/navbar";
 import Footer from "../component/footer";
 import RightbarArticles from "../component/widget/rightbar_articles";
@@ -7,26 +6,6 @@ import RightbarProducts from "../component/widget/rightbar_products";
 import RightbarTools from "../component/widget/rightbar_tools";
 
 export default function Home() {
-  useEffect(() => {
-    window.onscroll = function () {
-      let header = document.querySelector("header");
-      let fixedNav = header?.offsetTop;
-
-      if (window.pageYOffset > 0) {
-        header?.classList.add("navbar-fixed");
-      } else {
-        header?.classList.remove("navbar-fixed");
-      }
-    };
-
-    const hamberger = document.querySelector("#hamberger");
-    const navMenu = document.querySelector("#nav-menu");
-    hamberger?.addEventListener("click", function () {
-      hamberger.classList.toggle("hamberger-active");
-      navMenu?.classList.toggle("hidden");
-    });
-  });
-
   return (
     <main>
       <div className="flex flex-col h-screen">
@@ -83,26 +62,31 @@ export default function Home() {
                   {/* S:About */}
                   <section id="about" className="mb-4">
                     <div className="lg:container">
-                      <div className="px-4 lg:px-12 py-8 border-b lg:shadow lg:rounded-lg lg:border">
+                      <div className="px-4 lg:px-12 py-2 lg:py-8 border-b lg:shadow lg:rounded-lg lg:border">
                         <h2 className="block text-center text-2xl text-slate-900 lg:text-2xl pb-8 lg:text-start">
                           About
                         </h2>
-                        <p className="leading-loose text-sm text-center lg:text-left lg:text-base">
-                          Greetings... Nama Saya Ade Fathudin. Seorang IT
-                          Consultant level newbie, yang berkeinginan kuat untuk
-                          BISA. Humoris; Serius, Santai dan Sukses. Saya
-                          penikmat kopi hitam tanpa diaduk, entah kenapa dengan
-                          meminum kopi hitam tanpa diaduk rasanya lebih terang
-                          di mata dan lebih terang di pikiran. Well.. mungkin
-                          itu hanya sugesti saja :D Saya juga sangat menyukai
-                          dunia Open Source, termasuk OS Linux yang sampai saat
-                          ini saya gunakan untuk membangun mini server lokal di
-                          rumah. Yah... Walaupun saya hanya sebatas pengguna
-                          saja dan tidak ikut berkontribusi mengembangkannya,
-                          se-enggaknya saya bisa ikut kontribusi sebagai user :D
-                          Saat ini saya bekerja di Trans Digital Media, a.k.a
-                          detik.com, sebagai Web Developer.
-                        </p>
+                        <div className="leading-loose text-sm text-center lg:text-left lg:text-base">
+                          <p className="mb-3">
+                            Greetings... Nama Saya Ade Fathudin. Seorang IT
+                            Consultant level newbie, yang berkeinginan kuat
+                            untuk BISA. Humoris; Serius, Santai dan Sukses.
+                          </p>
+                          <p className="mb-3">
+                            Saya penikmat kopi hitam tanpa diaduk, entah kenapa
+                            dengan meminum kopi hitam tanpa diaduk rasanya lebih
+                            terang di mata dan lebih terang di pikiran. Well..
+                            mungkin itu hanya sugesti saja :D
+                          </p>
+                          <p>
+                            Saya juga sangat menyukai dunia Open Source,
+                            termasuk OS Linux yang sampai saat ini saya gunakan
+                            untuk membangun mini server lokal di rumah. Yah...
+                            Walaupun saya hanya sebatas pengguna saja dan tidak
+                            ikut berkontribusi mengembangkannya, se-enggaknya
+                            saya bisa ikut kontribusi sebagai user :D
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </section>

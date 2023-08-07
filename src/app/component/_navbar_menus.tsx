@@ -6,12 +6,12 @@ export default function NavbarMenus() {
       <li className="group">
         <a
           href="/"
-          className="text-base text-secondary py-2 mx-8 flex group-hover:text-primary"
+          className="text-base text-secondary lg:py-2 lg:mx-8 lg:flex group-hover:text-primary"
         >
           <svg
             className={` ${
               currentRoute == "/" ? "text-black" : "text-gray-400"
-            }  w-5 h-5 dark:text-white hover:text-black `}
+            }  w-4 h-4 lg:w-5 lg:h-5 dark:text-white hover:text-black `}
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -28,11 +28,14 @@ export default function NavbarMenus() {
         </a>
       </li>
       <li className="group">
-        <a href="/profile" className="text-base text-secondary py-2 mx-8 flex ">
+        <a
+          href="/profile"
+          className="text-base text-secondary lg:py-2 lg:mx-8 lg:flex "
+        >
           <svg
             className={` ${
               currentRoute == "/profile" ? "text-black" : "text-gray-400"
-            }  w-5 h-5 dark:text-white hover:text-black `}
+            }  w-4 h-4 lg:w-5 lg:h-5 dark:text-white hover:text-black `}
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -51,12 +54,12 @@ export default function NavbarMenus() {
       <li className="group">
         <a
           href="/articles"
-          className="text-base text-secondary py-2 mx-8 flex group-hover:text-primary"
+          className="text-base text-secondary lg:py-2 lg:mx-8 lg:flex group-hover:text-primary"
         >
           <svg
             className={` ${
               currentRoute == "/articles" ? "text-black" : "text-gray-400"
-            }  w-5 h-5 dark:text-white hover:text-black `}
+            }  w-4 h-4 lg:w-5 lg:h-5 dark:text-white hover:text-black `}
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -75,12 +78,12 @@ export default function NavbarMenus() {
       <li className="group">
         <a
           href="/projects"
-          className="text-base text-secondary py-2 mx-8 flex group-hover:text-primary"
+          className="text-base text-secondary lg:py-2 lg:mx-8 lg:flex group-hover:text-primary"
         >
           <svg
             className={` ${
               currentRoute == "/projects" ? "text-black" : "text-gray-400"
-            }  w-5 h-5 dark:text-white hover:text-black `}
+            }  w-4 h-4 lg:w-5 lg:h-5 dark:text-white hover:text-black `}
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -99,12 +102,12 @@ export default function NavbarMenus() {
       <li className="group">
         <a
           href="/tools"
-          className="text-base text-secondary py-2 mx-8 flex group-hover:text-primary"
+          className="text-base text-secondary lg:py-2 lg:mx-8 lg:flex group-hover:text-primary"
         >
           <svg
             className={` ${
               currentRoute == "/tools" ? "text-black" : "text-gray-400"
-            }  w-5 h-5 dark:text-white hover:text-black `}
+            }  w-4 h-4 lg:w-5 lg:h-5 dark:text-white hover:text-black `}
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -123,12 +126,12 @@ export default function NavbarMenus() {
       <li className="group">
         <a
           href="/products"
-          className="text-base text-secondary py-2 mx-8 flex group-hover:text-primary"
+          className="text-base text-secondary lg:py-2 lg:mx-8 lg:flex group-hover:text-primary"
         >
           <svg
             className={` ${
               currentRoute == "/products" ? "text-black" : "text-gray-400"
-            }  w-5 h-5 dark:text-white hover:text-black `}
+            }  w-4 h-4 lg:w-5 lg:h-5 dark:text-white hover:text-black `}
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="21"
