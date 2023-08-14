@@ -1,30 +1,35 @@
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-900 mt-auto">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <footer className="mt-auto">
+      <div className="mx-auto w-full max-w-screen-xl p-4 lg:py-8">
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-between">
-          <ul className="text-sm text-gray-500 sm:text-center dark:text-gray-400 flex mt-4 space-x-5 sm:justify-center sm:mt-0">
+        <div className="lg:flex lg:items-center lg:justify-between">
+          <ul className="text-xs lg:text-sm mb-4 lg:mb-0 text-gray-400 lg:text-gray-500 text-center dark:text-gray-400 flex mt-4 space-x-5 lg:justify-center lg:mt-0">
             <li className="">
-              <a href="#" className="hover:underline">
+              <a href="/profile" className="hover:underline">
+                About
+              </a>
+            </li>
+            <li className="">
+              <a href="/privacy-policy" className="hover:underline">
                 Privacy Policy
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="/terms-conditions" className="hover:underline">
                 Terms &amp; Conditions
               </a>
             </li>
           </ul>
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <span className="text-xs lg:text-sm mb-4 lg:mb-0 text-gray-400 lg:text-gray-500 dark:text-gray-400">
             © 2023{" "}
-            <a href="https://adefathudin.com/" className="hover:underline">
+            <a href="https://www.adefathudin.com/" className="hover:underline">
               Ade Fathudin
             </a>
             . All Rights Reserved.
           </span>
           <div className="hidden lg:block">
-            <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
+            <div className="flex lg:mt-4 space-x-5 sm:justify-center">
               <a
                 href="#"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
