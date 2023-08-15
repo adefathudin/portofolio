@@ -198,7 +198,7 @@ export default function Home() {
                   </div>
                 </section>
 
-                <section id="interest" className="mb-4">
+                {/* <section id="interest" className="mb-4">
                   <div className="lg:container">
                     <div className="px-4 py-2 lg:px-12 lg:py-8 border-b lg:shadow lg:rounded-lg lg:border">
                       <h2 className="block text-start text-base pb-4 text-slate-900 lg:text-2xl lg:pb-8">
@@ -210,9 +210,9 @@ export default function Home() {
                       </ul>
                     </div>
                   </div>
-                </section>
+                </section> */}
 
-                <section id="projects" className="mb-4">
+                {/* <section id="projects" className="mb-4">
                   <div className="lg:container">
                     <div className="px-4 py-2 lg:px-12 lg:py-8 border-b lg:shadow lg:rounded-lg lg:border">
                       <h2 className="block text-start text-base pb-4 text-slate-900 lg:text-2xl lg:pb-8">
@@ -240,7 +240,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                </section>
+                </section> */}
 
                 <section id="contact" className="lg:mb-4">
                   <div className="lg:container">

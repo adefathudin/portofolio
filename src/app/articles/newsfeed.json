@@ -1,0 +1,300 @@
+{
+    "kind": "blogger#postList",
+    "nextPageToken": "CgkIChjhlp7e9S4QuaKEpLPAi798GAA",
+    "items": [
+        {
+            "kind": "blogger#post",
+            "id": "3550291296422565410",
+            "blog": {
+                "id": "8970658099069260089"
+            },
+            "published": "2023-08-06T10:07:00+07:00",
+            "updated": "2023-08-06T10:09:30+07:00",
+            "url": "http://blog.adefathudin.com/2023/08/blog-post.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/3550291296422565410",
+            "title": "Cara Menyembunyikan Element HTML Pada Mobile dan Desktop Tailwind CSS",
+            "content": "<p>Untuk menyembunyikan element html pada mobil dan desktop Tailwind CSS versi 3.3.3 ada perbedaan. Seperti contoh untuk implementasi navbar <br /></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHshzsrAFFWNdkOt_8bBb6PQpeEJS7L9Gmk4UI7FCpmzIp6uEMsMFo0nibPm-ZUJYAiDIii3p9Fb9byp0B-PiVx5wEew_MTqv0ekpJjZ5A6NOAW2Y7RkX43WageRyuOoowTEIsn8skhmegLzmUJYpIxANiT9aRIIDvCmWyAdKK12l1v70fitGt0jkTz8W_/s2564/Screenshot%202023-08-06%20at%2010.08.36.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"352\" data-original-width=\"2564\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHshzsrAFFWNdkOt_8bBb6PQpeEJS7L9Gmk4UI7FCpmzIp6uEMsMFo0nibPm-ZUJYAiDIii3p9Fb9byp0B-PiVx5wEew_MTqv0ekpJjZ5A6NOAW2Y7RkX43WageRyuOoowTEIsn8skhmegLzmUJYpIxANiT9aRIIDvCmWyAdKK12l1v70fitGt0jkTz8W_/s16000/Screenshot%202023-08-06%20at%2010.08.36.png\" /></a></div><br /><p><br /></p><p>Berikut contoh untuk menyembunyikan di versi mobile dan menampilkan element di versi desktop:</p><div style=\"background-color: #1f1f1f; color: #cccccc; font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-size: 12px; font-weight: normal; line-height: 18px; white-space: pre;\"><div></div><div><span style=\"color: #cccccc;\">        </span><span style=\"color: grey;\">&lt;</span><span style=\"color: #569cd6;\">div</span><span style=\"color: #cccccc;\"> class</span><span style=\"color: #d4d4d4;\">=</span><span style=\"color: #ce9178;\">\"hidden lg:block\"</span><span style=\"color: grey;\">&gt;</span></div><div><span style=\"color: #cccccc;\">          </span><span style=\"color: grey;\">&lt;</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span><span style=\"color: #cccccc;\">0</span><span style=\"color: grey;\">&lt;/</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span></div><div><span style=\"color: #cccccc;\">          </span><span style=\"color: grey;\">&lt;</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span><span style=\"color: #cccccc;\">1</span><span style=\"color: grey;\">&lt;/</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span></div><div><span style=\"color: #cccccc;\">          </span><span style=\"color: grey;\">&lt;</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span><span style=\"color: #cccccc;\">2</span><span style=\"color: grey;\">&lt;/</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span></div><div><span style=\"color: #cccccc;\">        </span><span style=\"color: grey;\">&lt;/</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span></div></div><p></p><p>sedangkan untuk sebaliknya, menampilkan element di mobile dan menyembunyikan di versi desktop:</p><div style=\"background-color: #1f1f1f; color: #cccccc; font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-size: 12px; font-weight: normal; line-height: 18px; white-space: pre;\"><div></div><div><span style=\"color: #cccccc;\">        </span><span style=\"color: grey;\">&lt;</span><span style=\"color: #569cd6;\">div</span><span style=\"color: #cccccc;\"> class</span><span style=\"color: #d4d4d4;\">=</span><span style=\"color: #ce9178;\">\"block lg:hidden\"</span><span style=\"color: grey;\">&gt;</span></div><div><span style=\"color: #cccccc;\">          </span><span style=\"color: grey;\">&lt;</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span><span style=\"color: #cccccc;\">0</span><span style=\"color: grey;\">&lt;/</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span></div><div><span style=\"color: #cccccc;\">          </span><span style=\"color: grey;\">&lt;</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span><span style=\"color: #cccccc;\">1</span><span style=\"color: grey;\">&lt;/</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span></div><div><span style=\"color: #cccccc;\">          </span><span style=\"color: grey;\">&lt;</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span><span style=\"color: #cccccc;\">2</span><span style=\"color: grey;\">&lt;/</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span></div><div><span style=\"color: #cccccc;\">        </span><span style=\"color: grey;\">&lt;/</span><span style=\"color: #569cd6;\">div</span><span style=\"color: grey;\">&gt;</span></div></div><p></p>",
+            "author": {
+                "id": "12553472519547786228",
+                "displayName": "Ade Fathudin",
+                "url": "https://www.blogger.com/profile/12553472519547786228",
+                "image": {
+                    "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/3550291296422565410/comments"
+            },
+            "labels": [
+                "Tailwind CSS"
+            ],
+            "etag": "\"dGltZXN0YW1wOiAxNjkxMjkxMzcwNTIxCm9mZnNldDogMjUyMDAwMDAK\""
+        },
+        {
+            "kind": "blogger#post",
+            "id": "2831675494483808317",
+            "blog": {
+                "id": "8970658099069260089"
+            },
+            "published": "2023-01-18T21:49:00+07:00",
+            "updated": "2023-01-24T15:39:37+07:00",
+            "url": "http://blog.adefathudin.com/2023/01/solved-cara-mengatasi-error.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/2831675494483808317",
+            "title": "[solved] Cara Mengatasi Error WslRegisterDistribution failed with error: 0x80004002",
+            "content": "<p></p><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: left;\">&nbsp;Ketika saya selesai menginstall distro Ubuntu pada windows 10 menggunakan WSL, dan menemukan error </div><blockquote><div class=\"separator\" style=\"clear: both; text-align: left;\">WslRegisterDistribution failed with error: 0x80004002<br />Error: 0x80004002 No such interface supported<br /><br />Press any key to continue... <br /></div></blockquote><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><img border=\"0\" data-original-height=\"421\" data-original-width=\"701\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMnO1DVYOmCecNqZ3sWV63GXJhEDfD5JvX2lJYH3NrWK6Te7E8uZGgu-LX-Hy_H9M5tHnkXaWEssdyX5rMffGiG8O21Wzc8lGxAOCIqVJ_qaAqUwFcU8_5kTlO4s0QhVwJbuj2lbawv7alou9u29Oci76ccthGHIyN0xgbrHsJoC7Su7xQwSLbdwcjTA/s16000/Screenshot_1.png\" /></div><p></p><p>Solusinya adalah...</p><p></p><p><b>RESTART YOUR PC&nbsp; </b>atau restart dulu komputer agan.</p><p>Kalau sudah direstart, otomatis akan muncul jendela terminal seperti dibawah. Yang berarti proses installasi WSL telah berhasil, tinggal tekan <b>enter</b><br /></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPzMKkONTP11NcN9J3xjq3zejpXY9tLp_tWRZaPNZ02bJhv9xaFr_uWne7ILp_-1xGxxyUcb0jkDlCt3vWsq9q7ERq5B880RUwkl9zPTKsvKVMQCh3XcJ_argVvjImkbVe8hMYb4tNqyc4QUKR6-MylCm6g3yNWOJK1AfOM7Isdq96tgrUkyh5mPKEgg/s825/Screenshot_2.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"213\" data-original-width=\"825\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPzMKkONTP11NcN9J3xjq3zejpXY9tLp_tWRZaPNZ02bJhv9xaFr_uWne7ILp_-1xGxxyUcb0jkDlCt3vWsq9q7ERq5B880RUwkl9zPTKsvKVMQCh3XcJ_argVvjImkbVe8hMYb4tNqyc4QUKR6-MylCm6g3yNWOJK1AfOM7Isdq96tgrUkyh5mPKEgg/s16000/Screenshot_2.png\" /></a></div><br /><p><br /></p><br /><p></p>",
+            "author": {
+                "id": "12553472519547786228",
+                "displayName": "Ade Fathudin",
+                "url": "https://www.blogger.com/profile/12553472519547786228",
+                "image": {
+                    "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/2831675494483808317/comments"
+            },
+            "labels": [
+                "Ubuntu",
+                "Windows",
+                "WSL"
+            ],
+            "etag": "\"dGltZXN0YW1wOiAxNjc0NTQ5NTc3MTA0Cm9mZnNldDogMjUyMDAwMDAK\""
+        },
+        {
+            "kind": "blogger#post",
+            "id": "1236028247196911161",
+            "blog": {
+                "id": "8970658099069260089"
+            },
+            "published": "2022-10-10T19:55:00+07:00",
+            "updated": "2023-01-24T15:39:37+07:00",
+            "url": "http://blog.adefathudin.com/2022/10/cara-membuat-shortcut-ssh-pada-terminal_10.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/1236028247196911161",
+            "title": "Cara Membuat Shortcut SSH Pada Terminal MacOS atau Linux",
+            "content": "<p>Membuat shortcut SSH ini diperlukan supaya kita tidak perlu mengetik username dan server SSH yang terlalu panjang, cukup menggunakan alias. Seperti contoh <i>ssh adefathudin@192.168.0.200&nbsp;</i></p><p>Terlalu panjang bukan? dan tentunya tidak efisien.</p><p>Lalu bagaimana triknya? <br /></p><ol style=\"text-align: left;\"><li>Buka terminal</li><li>Lalu ketik <b>sudo nano /.ssh/config <br /></b></li><li>Lalu ketik</li><blockquote><p>Host Server<br /><span>&nbsp;&nbsp;&nbsp; </span>Hostname <span style=\"color: red;\">192.168.0.200<br /><span>&nbsp;&nbsp;&nbsp; <span style=\"color: black;\">User<span>&nbsp;&nbsp; &nbsp;</span><span>&nbsp;&nbsp; &nbsp;</span><span>&nbsp;&nbsp; <span style=\"color: red;\">adefathudin</span></span></span></span></span>&nbsp; <br /></p></blockquote><p>Seperti contoh di bawah ini</p><p></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibjiEX2glq0KB-hCnTTca1As2hSy-XRJuX8vN7sOVLnWhrqBjCSLKiQQZZDHMCLi8s3cywr7UfnSHv64R5-ita1a3amIK_Y5NkrxbMhD1uJYw7e38WUuHPZ0mWtNQsklPuJ4-XWcidn-Vrfq3Tqvf6IqKewrK8S2XOXpdUG63kYfFePVOJYfY5hTkdmw/s1838/Screen%20Shot%202022-10-10%20at%2019.48.42.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"1022\" data-original-width=\"1838\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibjiEX2glq0KB-hCnTTca1As2hSy-XRJuX8vN7sOVLnWhrqBjCSLKiQQZZDHMCLi8s3cywr7UfnSHv64R5-ita1a3amIK_Y5NkrxbMhD1uJYw7e38WUuHPZ0mWtNQsklPuJ4-XWcidn-Vrfq3Tqvf6IqKewrK8S2XOXpdUG63kYfFePVOJYfY5hTkdmw/s16000/Screen%20Shot%202022-10-10%20at%2019.48.42.png\" /></a></div><br /><p></p><p></p><li>Silahkan ganti tulisan merah diatas menggunakan server dan username server agan</li><li>Simpan config tersebut menggunakan ctrl W, dan ketik Y enter</li><li>Silahkan agan coba di terminal dengan mengetik <b>ssh <span style=\"color: red;\">adefathudin</span></b></li><li><span style=\"color: red;\"><span style=\"color: black;\">Jika tidak ada error, hasilnya akan seperti ini<br />&nbsp;</span><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD51D0KMCpn9d5q11RkTaFHnRiiyvq2uqkFhTCcixpeoUBCn_qcYzC_taUkZ6xvsrupp2VxugVP33TtXJZ0uIH_42yCwbyW1soswltgnnaA9jO4Q6diq7kXmE4t7tdJJ2JbqN-NLOSXfKipQdIkSyzuIpZ2-PiERAERDUQ9vYmtb9GY-U9ASs3uzV5Ng/s1838/Screen%20Shot%202022-10-10%20at%2019.52.59.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"1022\" data-original-width=\"1838\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD51D0KMCpn9d5q11RkTaFHnRiiyvq2uqkFhTCcixpeoUBCn_qcYzC_taUkZ6xvsrupp2VxugVP33TtXJZ0uIH_42yCwbyW1soswltgnnaA9jO4Q6diq7kXmE4t7tdJJ2JbqN-NLOSXfKipQdIkSyzuIpZ2-PiERAERDUQ9vYmtb9GY-U9ASs3uzV5Ng/s16000/Screen%20Shot%202022-10-10%20at%2019.52.59.png\" /></a></div><br /></span><b><span style=\"color: red;\"> </span></b><br /></li></ol><br />",
+            "author": {
+                "id": "12553472519547786228",
+                "displayName": "Ade Fathudin",
+                "url": "https://www.blogger.com/profile/12553472519547786228",
+                "image": {
+                    "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/1236028247196911161/comments"
+            },
+            "labels": [
+                "MacOS",
+                "Ubuntu"
+            ],
+            "etag": "\"dGltZXN0YW1wOiAxNjc0NTQ5NTc3NDMwCm9mZnNldDogMjUyMDAwMDAK\""
+        },
+        {
+            "kind": "blogger#post",
+            "id": "5929122717799870269",
+            "blog": {
+                "id": "8970658099069260089"
+            },
+            "published": "2022-08-13T09:58:00+07:00",
+            "updated": "2023-01-24T15:39:37+07:00",
+            "url": "http://blog.adefathudin.com/2022/08/windows-system-restore-error-must_12.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/5929122717799870269",
+            "title": "Windows System Restore Error &quot;You must enable system protection on this drive&quot;",
+            "content": "<p>&nbsp;Pagi ini ada teman tiba-tiba nge-chat ke ane kalau laptopnya tidak bisa booting alias stuck di repair</p><p><br /></p><div class=\"separator\" style=\"clear: both; text-align: left;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPpgXr9izzLHcX1JEqTbZa9-AiMR9GPHUfuOqNaVD9j37CfMJNBNr8BfkikY9W_8jotHA9CV_sCi3fM7MQuwwpHmB7U4GOr_CErkvawPgNc7MYL0gxGrDfkZPTYp8w-L5wotS8QCTqtNLN5IKF_gqeG0ahk15Utj442-RSHF4j9UPa0ZxrWbA2IqDCAQ/s1156/WhatsApp%20Image%202022-08-13%20at%208.51.51%20AM.jpeg\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"867\" data-original-width=\"1156\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPpgXr9izzLHcX1JEqTbZa9-AiMR9GPHUfuOqNaVD9j37CfMJNBNr8BfkikY9W_8jotHA9CV_sCi3fM7MQuwwpHmB7U4GOr_CErkvawPgNc7MYL0gxGrDfkZPTYp8w-L5wotS8QCTqtNLN5IKF_gqeG0ahk15Utj442-RSHF4j9UPa0ZxrWbA2IqDCAQ/s16000/WhatsApp%20Image%202022-08-13%20at%208.51.51%20AM.jpeg\" />&nbsp;</a>&nbsp;</div><div class=\"separator\" style=\"clear: both; text-align: left;\">repair belum selesai laptopnya nge-restart lagi.</div><div class=\"separator\" style=\"clear: both; text-align: left;\">&nbsp;</div><div class=\"separator\" style=\"clear: both; text-align: left;\">Ane coba pandu untuk melakukan system restore, dan setelah proses pandu yang panjang, muncul lagi problem baru saat mau system restore <br /></div><br /><p></p><div class=\"separator\" style=\"clear: both; text-align: left;\"><img border=\"0\" data-original-height=\"900\" data-original-width=\"1600\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBvBXsf80m4rDwMgR-wNDS6obC05oCnP4QOFzEQJ4VGx6RCOfs9LKTvs_sN-hrNsvcmXEasdJowscDfqli43IqRyxTLEwPYxYjJQ2K1zPtKVRttkyjLplVGBRXjKsNdLzEXjBn91Xd-hggufUAnAT_T_wQEJ4lMdHgTiQrcY1LVohTRFL98N2MhDwICQ/s16000/WhatsApp%20Image%202022-08-13%20at%208.59.04%20AM.jpeg\" />&nbsp;</div><div class=\"separator\" style=\"clear: both; text-align: center;\">&nbsp;</div><div class=\"separator\" style=\"clear: both; text-align: left;\">drive C atau drive yang berisi system-nya gabisa diceklis dan proses restore berhenti sampai disana.</div><div class=\"separator\" style=\"clear: both; text-align: left;\">&nbsp;</div><div class=\"separator\" style=\"clear: both; text-align: left;\">Nah kalo agan ngalamin hal yang serupa, agan bisa nyoba cara berikut:</div><div class=\"separator\" style=\"clear: both; text-align: left;\">&nbsp;</div><div class=\"separator\" style=\"clear: both; text-align: left;\"><ol style=\"text-align: left;\"><li>Agan masuk ke command prompt<br /><br /><div class=\"separator\" style=\"clear: both; text-align: left;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPBQb8_ZtZ8wZ5NoTI6NI-utFVrpAX4RGmIZwBAwUgOCaRYUOuvq1GApUZ2Dlbm7bl8ycUAOsas_6S3bOt_PwmKrvasXxmv8_6vHJyEVEgHFL7OibH9esVdSpQmlJMJWjHYp9MhvNM6bPS2IlPrGp7PwIQCCHBvp0v4h9jEzRTQEuAdKNXqUjk4KPxvA/s1600/WhatsApp%20Image%202022-08-13%20at%208.55.52%20AM.jpeg\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"900\" data-original-width=\"1600\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPBQb8_ZtZ8wZ5NoTI6NI-utFVrpAX4RGmIZwBAwUgOCaRYUOuvq1GApUZ2Dlbm7bl8ycUAOsas_6S3bOt_PwmKrvasXxmv8_6vHJyEVEgHFL7OibH9esVdSpQmlJMJWjHYp9MhvNM6bPS2IlPrGp7PwIQCCHBvp0v4h9jEzRTQEuAdKNXqUjk4KPxvA/s16000/WhatsApp%20Image%202022-08-13%20at%208.55.52%20AM.jpeg\" /></a></div><br /></li><li>Lalu ketik <b>rstrui.exe&nbsp;&nbsp; /offline:C:\\windows=active </b>lalu enter<br /></li><li>kalau ngetiknya betul, agan akan diarahin ke menu system restore lagi dan akan diarahin ke pemilihan drive<br /><br /><br /><div class=\"separator\" style=\"clear: both; text-align: left;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvzQtwxKGNdx3EEXeImGXMaRhI_S0aDhOv-0V1hEqkcIhuiMfeGMUAIglfdV6-gNvfqSSoGbbKSZin-5w9DWpzfVybC-x9FP-zrV3u2SrEZXlQy59bz6Lmz2WPGCACaZA_YJFcEU2RFD61-SaGk57eY0zy6hDS2r-mobAD5IhMIwAMYsXojMxbaLY64Q/s1600/WhatsApp%20Image%202022-08-13%20at%209.19.32%20AM.jpeg\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"900\" data-original-width=\"1600\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvzQtwxKGNdx3EEXeImGXMaRhI_S0aDhOv-0V1hEqkcIhuiMfeGMUAIglfdV6-gNvfqSSoGbbKSZin-5w9DWpzfVybC-x9FP-zrV3u2SrEZXlQy59bz6Lmz2WPGCACaZA_YJFcEU2RFD61-SaGk57eY0zy6hDS2r-mobAD5IhMIwAMYsXojMxbaLY64Q/s16000/WhatsApp%20Image%202022-08-13%20at%209.19.32%20AM.jpeg\" /></a></div><br /></li><li>Secara otomatis drive C akan tercentang, lalu klik next<br /><br /><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhznq5xbTQSwCBBbpVdMSskEKhwEvxels7HQejIvIejZ1sZK2a67PjPBHwweIqstMqJJWor-3b3Xk7skmCtGHDO3HN1BZK2LzWrBa1FwbwCRIz4EcHNm_PXU2JfzhGlZ6WPpqlwMYp3kLM0iT0X7wCJfPuokAYOmsVZrHJnxEoz2AvzsB7xULHKjrxgg/s1600/WhatsApp%20Image%202022-08-13%20at%209.20.54%20AM.jpeg\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"900\" data-original-width=\"1600\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhznq5xbTQSwCBBbpVdMSskEKhwEvxels7HQejIvIejZ1sZK2a67PjPBHwweIqstMqJJWor-3b3Xk7skmCtGHDO3HN1BZK2LzWrBa1FwbwCRIz4EcHNm_PXU2JfzhGlZ6WPpqlwMYp3kLM0iT0X7wCJfPuokAYOmsVZrHJnxEoz2AvzsB7xULHKjrxgg/s16000/WhatsApp%20Image%202022-08-13%20at%209.20.54%20AM.jpeg\" /></a></div>&nbsp; <br /></li><li>Jika proses restore berhasil, windows akan meminta restart dan komputer akan booting seperti biasa<br /></li></ol></div><p><br /></p><p><br /></p><p><br /></p><p></p>",
+            "author": {
+                "id": "12553472519547786228",
+                "displayName": "Ade Fathudin",
+                "url": "https://www.blogger.com/profile/12553472519547786228",
+                "image": {
+                    "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/5929122717799870269/comments"
+            },
+            "labels": [
+                "Windows"
+            ],
+            "etag": "\"dGltZXN0YW1wOiAxNjc0NTQ5NTc3NzU1Cm9mZnNldDogMjUyMDAwMDAK\""
+        },
+        {
+            "kind": "blogger#post",
+            "id": "3848423430505552632",
+            "blog": {
+                "id": "8970658099069260089"
+            },
+            "published": "2022-05-27T09:27:00+07:00",
+            "updated": "2023-01-24T15:39:38+07:00",
+            "url": "http://blog.adefathudin.com/2022/05/clickjacking-script-example_26.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/3848423430505552632",
+            "title": "Clickjacking Script Example",
+            "content": "<p>Clickjacking adalah teknik mengelabui pengunjung website menggunakan iframe website aslinya dengan menempelkan kode HTML atau Javascript pada iframe tersebut. Selengkapnya tentang clickjacking <a href=\"https://owasp.org/www-community/attacks/Clickjacking\" rel=\"nofollow\" target=\"_blank\">https://owasp.org/www-community/attacks/Clickjacking</a></p><p>Contoh script berikut <b>tidak </b>ditujukan untuk disalahgunakan, melainkan untuk lebih <i>aware </i>terhadap keamanan sebuah website. <br /></p><p>Berikut contoh script clickjacking.</p><div style=\"background-color: white; color: black; font-family: Menlo, Monaco, 'Courier New', monospace; font-size: 12px; font-weight: normal; line-height: 18px; white-space: pre;\"><div><span style=\"color: maroon;\">&lt;style&gt;</span></div><div><span style=\"color: black;\">    </span><span style=\"color: maroon;\">iframe</span><span style=\"color: black;\"> {</span></div><div><span style=\"color: black;\">        </span><span style=\"color: red;\">height</span><span style=\"color: black;\">: </span><span style=\"color: #098658;\">100%</span><span style=\"color: black;\">;</span></div><div><span style=\"color: black;\">        </span><span style=\"color: red;\">width</span><span style=\"color: black;\">: </span><span style=\"color: #098658;\">100%</span><span style=\"color: black;\">;</span></div><div><span style=\"color: black;\">        </span><span style=\"color: red;\">border</span><span style=\"color: black;\">: </span><span style=\"color: #098658;\">0</span><span style=\"color: black;\">;</span></div><div><span style=\"color: black;\">    }</span></div><div><span style=\"color: black;\">    </span><span style=\"color: maroon;\">.frame-container</span><span style=\"color: black;\"> {</span></div><div><span style=\"color: black;\">        </span><span style=\"color: red;\">position</span><span style=\"color: black;\">: </span><span style=\"color: #0451a5;\">relative</span><span style=\"color: black;\">;</span></div><div><span style=\"color: black;\">    }</span></div><div><span style=\"color: black;\">    </span><span style=\"color: maroon;\">.iframe-button</span><span style=\"color: black;\"> {</span></div><div><span style=\"color: black;\">        </span><span style=\"color: red;\">display</span><span style=\"color: black;\">: </span><span style=\"color: #0451a5;\">none</span><span style=\"color: black;\">;</span></div><div><span style=\"color: black;\">        </span><span style=\"color: red;\">position</span><span style=\"color: black;\">: </span><span style=\"color: #0451a5;\">absolute</span><span style=\"color: black;\">;</span></div><div><span style=\"color: black;\">        </span><span style=\"color: red;\">top</span><span style=\"color: black;\">: </span><span style=\"color: #098658;\">80px</span><span style=\"color: black;\">;</span></div><div><span style=\"color: black;\">        </span><span style=\"color: red;\">left</span><span style=\"color: black;\">: </span><span style=\"color: #098658;\">300px</span><span style=\"color: black;\">;</span></div><div><span style=\"color: black;\">        </span><span style=\"color: red;\">height</span><span style=\"color: black;\">: </span><span style=\"color: #098658;\">10%</span><span style=\"color: black;\">;</span></div><div><span style=\"color: black;\">        </span><span style=\"color: red;\">width</span><span style=\"color: black;\">: </span><span style=\"color: #098658;\">20%</span><span style=\"color: black;\">;</span></div><div><span style=\"color: black;\">        </span><span style=\"color: red;\">opacity</span><span style=\"color: black;\">: </span><span style=\"color: #098658;\">2</span><span style=\"color: black;\">;</span></div><div><span style=\"color: black;\">    }</span></div><br /><div><span style=\"color: black;\">    </span><span style=\"color: maroon;\">.frame-container:hover</span><span style=\"color: black;\"> </span><span style=\"color: maroon;\">.iframe-button</span><span style=\"color: black;\"> {</span></div><div><span style=\"color: black;\">        </span><span style=\"color: red;\">display</span><span style=\"color: black;\">: </span><span style=\"color: #0451a5;\">initial</span><span style=\"color: black;\">;</span></div><div><span style=\"color: black;\">    }</span></div><div><span style=\"color: maroon;\">&lt;/style&gt;</span></div><br /><div><span style=\"color: maroon;\">&lt;div</span><span style=\"color: black;\"> </span><span style=\"color: red;\">class</span><span style=\"color: black;\">=</span><span style=\"color: blue;\">\"frame-container\"</span><span style=\"color: maroon;\">&gt;</span></div><div><span style=\"color: black;\">    </span><span style=\"color: maroon;\">&lt;button</span><span style=\"color: black;\"> </span><span style=\"color: red;\">class</span><span style=\"color: black;\">=</span><span style=\"color: blue;\">\"iframe-button\"</span><span style=\"color: black;\"> </span><span style=\"color: red;\">onclick</span><span style=\"color: black;\">=</span><span style=\"color: blue;\">\"</span><span style=\"color: #795e26;\">alert</span><span style=\"color: blue;\">(</span><span style=\"color: #a31515;\">'clickjaciking'</span><span style=\"color: blue;\">);</span><span style=\"color: blue;\">\"</span><span style=\"color: maroon;\">&gt;</span></div><div><span style=\"color: black;\">        Click me</span></div><div><span style=\"color: black;\">    </span><span style=\"color: maroon;\">&lt;/button&gt;</span></div><div><span style=\"color: black;\">    </span><span style=\"color: maroon;\">&lt;iframe</span><span style=\"color: black;\"> </span><span style=\"color: red;\">src</span><span style=\"color: black;\">=</span><span style=\"color: blue;\">\"https://id.wikipedia.org\"</span><span style=\"color: maroon;\">&gt;&lt;/iframe&gt;</span></div><div><span style=\"color: maroon;\">&lt;/div&gt;</span></div></div><p></p><p></p><div style=\"text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8b-SB3uooAdHoerkT7Ak_KorKIRsv0CnSLeXoDjn9MxqiVPzPes7ceIKCOnCL1nOf9S-j-bXvO2byUOV9sjO0EyyBj3zplGWPUfKUbvDitzqR4OVsTtxswXfiKzm7wSJOwn0bpLIhmvnrlQFfzdIwAE_KFkwbi76BA3KoQeSRBZJBoHTitfxvMI1-hQ/s3360/Screen%20Shot%202022-05-27%20at%2009.20.14.png\" imageanchor=\"1\"><img border=\"0\" data-original-height=\"1706\" data-original-width=\"3360\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8b-SB3uooAdHoerkT7Ak_KorKIRsv0CnSLeXoDjn9MxqiVPzPes7ceIKCOnCL1nOf9S-j-bXvO2byUOV9sjO0EyyBj3zplGWPUfKUbvDitzqR4OVsTtxswXfiKzm7wSJOwn0bpLIhmvnrlQFfzdIwAE_KFkwbi76BA3KoQeSRBZJBoHTitfxvMI1-hQ/s16000/Screen%20Shot%202022-05-27%20at%2009.20.14.png\" /></a></div><br /><p></p><p>Untuk menyembunyikan tombol button \"click me\", silahkan hidden button tersebut dengan merubah nilai \"opacity\" pada class iframe-button dari 2 menjadi 0<br /></p><p></p>",
+            "author": {
+                "id": "12553472519547786228",
+                "displayName": "Ade Fathudin",
+                "url": "https://www.blogger.com/profile/12553472519547786228",
+                "image": {
+                    "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/3848423430505552632/comments"
+            },
+            "labels": [
+                "Web Security"
+            ],
+            "etag": "\"dGltZXN0YW1wOiAxNjc0NTQ5NTc4MDgxCm9mZnNldDogMjUyMDAwMDAK\""
+        },
+        {
+            "kind": "blogger#post",
+            "id": "2852775068681178789",
+            "blog": {
+                "id": "8970658099069260089"
+            },
+            "published": "2022-04-08T20:41:00+07:00",
+            "updated": "2023-01-24T15:39:38+07:00",
+            "url": "http://blog.adefathudin.com/2022/04/cara-agar-leading-listtile-berada-di_8.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/2852775068681178789",
+            "title": "Cara Agar Leading ListTile Berada di Tengah",
+            "content": "<p>&nbsp;Sudah lama ga nulis lagi. 🙏</p><p>Artikel singkat kali ini ane akan share cara supaya Leading dari widget ListTile berada di tengah-tengah.</p><p>Secara default, Leading ini sejajar dengan Title. Seperti contoh berikut:</p><div style=\"background-color: #1e1e1e; color: #d4d4d4; font-family: Menlo, Monaco, 'Courier New', monospace; font-size: 12px; font-weight: normal; line-height: 18px; white-space: pre;\"><div></div><div><span style=\"color: #d4d4d4;\">                            </span><span style=\"color: #4ec9b0;\">ListTile</span><span style=\"color: #d4d4d4;\">(</span></div><div><span style=\"color: #d4d4d4;\">                              </span><span style=\"color: #9cdcfe;\">leading</span><span style=\"color: #d4d4d4;\">: </span><span style=\"color: #4ec9b0;\">Icon</span><span style=\"color: #d4d4d4;\">(</span><span style=\"color: #4ec9b0;\">Icons</span><span style=\"color: #d4d4d4;\">.</span><span style=\"color: #9cdcfe;\">emoji_events_outlined</span><span style=\"color: #d4d4d4;\">),</span></div><div><span style=\"color: #d4d4d4;\">                              </span><span style=\"color: #9cdcfe;\">title</span><span style=\"color: #d4d4d4;\">: </span><span style=\"color: #4ec9b0;\">Text</span><span style=\"color: #d4d4d4;\">(</span><span style=\"color: #ce9178;\">\"Catur\"</span><span style=\"color: #d4d4d4;\">),</span></div><div><span style=\"color: #d4d4d4;\">                              </span><span style=\"color: #9cdcfe;\">subtitle</span><span style=\"color: #d4d4d4;\">: </span><span style=\"color: #4ec9b0;\">Text</span><span style=\"color: #d4d4d4;\">(</span><span style=\"color: #ce9178;\">\"Ade Fathudin menang\"</span><span style=\"color: #d4d4d4;\">),</span></div><div><span style=\"color: #d4d4d4;\">                              </span><span style=\"color: #9cdcfe;\">trailing</span><span style=\"color: #d4d4d4;\">: </span><span style=\"color: #4ec9b0;\">Text</span><span style=\"color: #d4d4d4;\">(</span><span style=\"color: #ce9178;\">\"08 Apr 22\"</span><span style=\"color: #d4d4d4;\">),</span></div><div><span style=\"color: #d4d4d4;\">                            )</span></div></div><p></p><p>dan outputnya akan seperti berikut:<br /></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjukqTGmWiie8JSQ-N3QGP-381pnN-x4L6N7cbNl79OnsCJNkwaQfXHC3QQ7BMGYlWD-jAluK3Ut4EYdMB8Mo9ctBmdG07B8dzKd-M8auRhZOVfeq_atYatc3q9_eMm7_WOfjcr_vACSIHu5B_RRoJ1pKLDxYv7noYnpYG55Bks0RNH-YYXCjAYxlwUow/s564/Screenshot%20at%20Apr%2008%2020-23-12.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"358\" data-original-width=\"564\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjukqTGmWiie8JSQ-N3QGP-381pnN-x4L6N7cbNl79OnsCJNkwaQfXHC3QQ7BMGYlWD-jAluK3Ut4EYdMB8Mo9ctBmdG07B8dzKd-M8auRhZOVfeq_atYatc3q9_eMm7_WOfjcr_vACSIHu5B_RRoJ1pKLDxYv7noYnpYG55Bks0RNH-YYXCjAYxlwUow/s16000/Screenshot%20at%20Apr%2008%2020-23-12.png\" /></a></div><p>Pada gambar di atas terlihat tidak rapih karena icon tidak berada ditengah-tengah antara title dan subtitle.</p><p>Lalu bagaimana solusinya?</p><p>Agan cukup membungkus komponen leading menggunakan widget Container.</p><div style=\"background-color: #1e1e1e; color: #d4d4d4; font-family: Menlo, Monaco, 'Courier New', monospace; font-size: 12px; font-weight: normal; line-height: 18px; white-space: pre;\"><div></div><div><span style=\"color: #d4d4d4;\">                            </span><span style=\"color: #4ec9b0;\">ListTile</span><span style=\"color: #d4d4d4;\">(</span></div><div><span style=\"color: #d4d4d4;\">                              </span><span style=\"color: #9cdcfe;\">leading</span><span style=\"color: #d4d4d4;\">: </span><span style=\"color: #4ec9b0;\">Container</span><span style=\"color: #d4d4d4;\">(</span></div><div><span style=\"color: #d4d4d4;\">                                </span><span style=\"color: #9cdcfe;\">height</span><span style=\"color: #d4d4d4;\">: </span><span style=\"color: #4ec9b0;\">double</span><span style=\"color: #d4d4d4;\">.</span><span style=\"color: #9cdcfe;\">infinity</span><span style=\"color: #d4d4d4;\">,</span></div><div><span style=\"color: #d4d4d4;\">                                </span><span style=\"color: #9cdcfe;\">child</span><span style=\"color: #d4d4d4;\">: </span><span style=\"color: #4ec9b0;\">Icon</span><span style=\"color: #d4d4d4;\">(</span><span style=\"color: #4ec9b0;\">Icons</span><span style=\"color: #d4d4d4;\">.</span><span style=\"color: #9cdcfe;\">emoji_events_outlined</span><span style=\"color: #d4d4d4;\">),</span></div><div><span style=\"color: #d4d4d4;\">                              ),</span></div><div><span style=\"color: #d4d4d4;\">                              </span><span style=\"color: #9cdcfe;\">title</span><span style=\"color: #d4d4d4;\">: </span><span style=\"color: #4ec9b0;\">Text</span><span style=\"color: #d4d4d4;\">(</span><span style=\"color: #ce9178;\">\"Catur\"</span><span style=\"color: #d4d4d4;\">),</span></div><div><span style=\"color: #d4d4d4;\">                              </span><span style=\"color: #9cdcfe;\">subtitle</span><span style=\"color: #d4d4d4;\">: </span><span style=\"color: #4ec9b0;\">Text</span><span style=\"color: #d4d4d4;\">(</span><span style=\"color: #ce9178;\">\"Ade Fathudin menang\"</span><span style=\"color: #d4d4d4;\">),</span></div><div><span style=\"color: #d4d4d4;\">                              </span><span style=\"color: #9cdcfe;\">trailing</span><span style=\"color: #d4d4d4;\">: </span><span style=\"color: #4ec9b0;\">Text</span><span style=\"color: #d4d4d4;\">(</span><span style=\"color: #ce9178;\">\"08 Apr 22\"</span><span style=\"color: #d4d4d4;\">),</span></div><div><span style=\"color: #d4d4d4;\">                            )</span></div></div><p></p><p>dan outputnya akan sesuai dengan yang diharapkan</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3Dl_-I9Gy-iri89oKUXCqwvrB-nEVqHnxG6Rc0-INP2NjaupLPZKO-0ivLm1-8Bsb7JwKJOPx0TRFy00RwIFXsZyZf5O8Lb2vBiNKIfvOXRr2RXXKoQCOLgkUlhGnV1k0jp14cYL3XK7KYBH9cmehJyroivNhPP7A86vBm8CCsdypGZtNDulTbxvAYw/s614/Screenshot%20at%20Apr%2008%2020-27-48.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"344\" data-original-width=\"614\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3Dl_-I9Gy-iri89oKUXCqwvrB-nEVqHnxG6Rc0-INP2NjaupLPZKO-0ivLm1-8Bsb7JwKJOPx0TRFy00RwIFXsZyZf5O8Lb2vBiNKIfvOXRr2RXXKoQCOLgkUlhGnV1k0jp14cYL3XK7KYBH9cmehJyroivNhPP7A86vBm8CCsdypGZtNDulTbxvAYw/s16000/Screenshot%20at%20Apr%2008%2020-27-48.png\" /></a></div><br /><p><br /></p>",
+            "author": {
+                "id": "12553472519547786228",
+                "displayName": "Ade Fathudin",
+                "url": "https://www.blogger.com/profile/12553472519547786228",
+                "image": {
+                    "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/2852775068681178789/comments"
+            },
+            "labels": [
+                "Flutter"
+            ],
+            "etag": "\"dGltZXN0YW1wOiAxNjc0NTQ5NTc4NDAzCm9mZnNldDogMjUyMDAwMDAK\""
+        },
+        {
+            "kind": "blogger#post",
+            "id": "8243723406498423155",
+            "blog": {
+                "id": "8970658099069260089"
+            },
+            "published": "2021-06-10T10:29:00+07:00",
+            "updated": "2023-01-24T15:39:39+07:00",
+            "url": "http://blog.adefathudin.com/2021/06/solusi-error-import-file-csv-ke-dalam_9.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/8243723406498423155",
+            "title": "Solusi Error Import File CSV ke Dalam Table Postgresql",
+            "content": "<p>Saat mau melakukan insert data pada table postgresql melalui import data csv ataupun txt, lalu muncul error:</p><p></p><blockquote><p><span style=\"font-family: courier;\">ERROR:  must be superuser to COPY to or from a file&nbsp;</span></p><p><span style=\"font-family: courier;\">HINT:  Anyone can COPY to stdout or from stdin. psql's \\copy command also works for anyone. SQL state: 4250 </span></p></blockquote><p>jika muncul error seperti di atas, kalian tidak perlu pusing. Silahkan ketik syntax berikut kedalam terminal/shell :<br /></p><p><span style=\"font-family: courier;\"></span></p><blockquote><span style=\"font-family: courier;\">psql -h <span style=\"color: red;\">ip_host</span> -U <span style=\"color: red;\">user </span>-d <span style=\"color: red;\">password </span>-c \"\\copy public.<span style=\"color: red;\">nama_table </span>(<span style=\"color: red;\">kolom1</span>, <span style=\"color: red;\">kolom_seterusnya</span>) FROM '<span style=\"color: red;\">direktori file d:/Book2.csv</span>' DELIMITER ',' CSV;\"</span></blockquote>Silahkan diganti tulisan yang berwarna merah sesuai dengan konfigurasi agan-agan.<p></p><p>Jika berhasil, maka akan muncul keterangan seperti ini:</p><p>&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://1.bp.blogspot.com/-8-orL5JqXgU/YMGGoqH8NzI/AAAAAAAAOEg/baOzC3OCsK89N9d0JjX4HSTeZrdlmsoJQCLcBGAsYHQ/s1086/Screenshot_3.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"182\" data-original-width=\"1086\" src=\"https://1.bp.blogspot.com/-8-orL5JqXgU/YMGGoqH8NzI/AAAAAAAAOEg/baOzC3OCsK89N9d0JjX4HSTeZrdlmsoJQCLcBGAsYHQ/s16000/Screenshot_3.png\" /></a></div><br /><p><br /></p>",
+            "author": {
+                "id": "12553472519547786228",
+                "displayName": "Ade Fathudin",
+                "url": "https://www.blogger.com/profile/12553472519547786228",
+                "image": {
+                    "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/8243723406498423155/comments"
+            },
+            "labels": [
+                "PostgreSQL"
+            ],
+            "etag": "\"dGltZXN0YW1wOiAxNjc0NTQ5NTc5MDkzCm9mZnNldDogMjUyMDAwMDAK\""
+        },
+        {
+            "kind": "blogger#post",
+            "id": "3826024760698762547",
+            "blog": {
+                "id": "8970658099069260089"
+            },
+            "published": "2021-04-21T12:48:00+07:00",
+            "updated": "2023-01-24T15:39:39+07:00",
+            "url": "http://blog.adefathudin.com/2021/04/solved-image-not-found-or-type-unknown_20.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/3826024760698762547",
+            "title": "[solved] Image not found or type unknown Dompdf Codeigniter",
+            "content": "<p>Ketika ingin memanggil image saat akan mengcreate pdf menggunakan library dompdf pada PHP, biasanya akan muncul error \"image not found or type unknown\" pada dokumen pdf yang sudah tergenerate.&nbsp;</p><p>Seperti contoh dibawah ini ketika saya akan memanggil image saat melakukan generate pdf. <br /></p><p><span style=\"font-family: courier;\"></span></p><blockquote><span style=\"font-family: courier;\">&lt;img src=\"'.base_url().'assets/image/background_report.jpg\" width=595 height=935/&gt;</span></blockquote><p>&nbsp;Namun saat membuka file pdfnya, muncul error seperti dibawah ini.<br /></p><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://1.bp.blogspot.com/-nNZfz-KfFAs/YH-z5Wt4JlI/AAAAAAAAOCQ/ROJA1wpU6esn24zk7WORTao8D52CVVYfgCLcBGAsYHQ/s463/Screenshot_1.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"285\" data-original-width=\"463\" src=\"https://1.bp.blogspot.com/-nNZfz-KfFAs/YH-z5Wt4JlI/AAAAAAAAOCQ/ROJA1wpU6esn24zk7WORTao8D52CVVYfgCLcBGAsYHQ/s16000/Screenshot_1.png\" /></a></div><p></p><p>Untuk mengakalinya, kita hanya memanggil object isRemoteEnabled dari library Dompdf <br /></p><div style=\"background-color: white; color: black; font-family: Consolas, 'Courier New', monospace; font-size: 12px; font-weight: normal; line-height: 16px; white-space: pre;\"><div><span style=\"color: blue;\"><span>&nbsp;&nbsp; &nbsp;</span><span>&nbsp;&nbsp; &nbsp;</span>$this</span><span style=\"color: black;\">-&gt;</span><span style=\"color: #001080;\">load</span><span style=\"color: black;\">-&gt;</span><span style=\"color: #795e26;\">library</span><span style=\"color: black;\">(</span><span style=\"color: #a31515;\">'pdf'</span><span style=\"color: black;\">);&nbsp;</span><span style=\"color: green;\">//memanggil&nbsp;library&nbsp;dompdf&nbsp;yang&nbsp;ada&nbsp;di&nbsp;folder&nbsp;libraris</span></div><div><span style=\"color: black;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"color: blue;\">$this</span><span style=\"color: black;\">-&gt;</span><span style=\"color: #001080;\">pdf</span><span style=\"color: black;\">-&gt;</span><span style=\"color: #795e26;\">loadHtml</span><span style=\"color: black;\">(</span><span style=\"color: #001080;\">$html</span><span style=\"color: black;\">);&nbsp;</span><span style=\"color: green;\">//load&nbsp;code&nbsp;html&nbsp;yang&nbsp;akan&nbsp;digenerate&nbsp;menjadi&nbsp;pdf</span></div><div><span style=\"color: black;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"color: blue;\">$this</span><span style=\"color: black;\">-&gt;</span><span style=\"color: #001080;\">pdf</span><span style=\"color: black;\">-&gt;</span><span style=\"color: #795e26;\">setPaper</span><span style=\"color: black;\">(</span><span style=\"color: #a31515;\">'A4'</span><span style=\"color: black;\">,&nbsp;</span><span style=\"color: #a31515;\">'potrait'</span><span style=\"color: black;\">);&nbsp;</span><span style=\"color: green;\">//&nbsp;setting&nbsp;ukuran&nbsp;kertas</span></div><div><span style=\"color: black;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"color: blue;\">$this</span><span style=\"color: black;\">-&gt;</span><span style=\"color: #001080;\">pdf</span><span style=\"color: black;\">-&gt;</span><span style=\"color: #795e26;\">set_option</span><span style=\"color: black;\">(</span><span style=\"color: #a31515;\">'isRemoteEnabled'</span><span style=\"color: black;\">,&nbsp;</span><span style=\"color: blue;\">true</span><span style=\"color: black;\">);&nbsp;</span><span style=\"color: green;\">//&nbsp;&lt;--&nbsp;object&nbsp;ini&nbsp;yang&nbsp;perlu&nbsp;kita&nbsp;tambahkan&nbsp;</span></div><div><span style=\"color: black;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"color: blue;\">$this</span><span style=\"color: black;\">-&gt;</span><span style=\"color: #001080;\">pdf</span><span style=\"color: black;\">-&gt;</span><span style=\"color: #795e26;\">render</span><span style=\"color: black;\">();</span></div><div><span style=\"color: black;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"color: #001080;\">$output</span><span style=\"color: black;\">&nbsp;=&nbsp;</span><span style=\"color: blue;\">$this</span><span style=\"color: black;\">-&gt;</span><span style=\"color: #001080;\">pdf</span><span style=\"color: black;\">-&gt;</span><span style=\"color: #795e26;\">output</span><span style=\"color: black;\">();</span></div><div><span style=\"color: black;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"color: #795e26;\">file_put_contents</span><span style=\"color: black;\">(</span><span style=\"color: #a31515;\">\"/mnt/d/adefathudin.pdf\"</span><span style=\"color: black;\">,&nbsp;</span><span style=\"color: #001080;\">$output</span><span style=\"color: black;\">);</span></div></div><p>&nbsp;</p><p>Dan saat digenerate ulang, hasilnya seperti dibawah ini&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://1.bp.blogspot.com/-ti04AN2S2-c/YH-8ML8OqjI/AAAAAAAAOCY/SH28I2_9XWUqCKenkj-uwnbXWGPYt_EgwCLcBGAsYHQ/s503/Screenshot_2.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"365\" data-original-width=\"503\" src=\"https://1.bp.blogspot.com/-ti04AN2S2-c/YH-8ML8OqjI/AAAAAAAAOCY/SH28I2_9XWUqCKenkj-uwnbXWGPYt_EgwCLcBGAsYHQ/s16000/Screenshot_2.png\" /></a></div><br /><p><br /></p><div style=\"background-color: white; color: black; font-family: Consolas, 'Courier New', monospace; font-size: 12px; font-weight: normal; line-height: 16px; white-space: pre;\"><div><span style=\"color: blue;\"><span>&nbsp;&nbsp; &nbsp;</span><span>&nbsp;&nbsp; &nbsp;</span></span></div><div><span style=\"color: black;\">&nbsp;</span></div><div><span style=\"color: black;\">&nbsp;</span></div></div><p></p>",
+            "author": {
+                "id": "12553472519547786228",
+                "displayName": "Ade Fathudin",
+                "url": "https://www.blogger.com/profile/12553472519547786228",
+                "image": {
+                    "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/3826024760698762547/comments"
+            },
+            "labels": [
+                "PHP"
+            ],
+            "etag": "\"dGltZXN0YW1wOiAxNjc0NTQ5NTc5NDE2Cm9mZnNldDogMjUyMDAwMDAK\""
+        },
+        {
+            "kind": "blogger#post",
+            "id": "6793122240574135223",
+            "blog": {
+                "id": "8970658099069260089"
+            },
+            "published": "2021-03-21T23:09:00+07:00",
+            "updated": "2023-01-24T15:39:39+07:00",
+            "url": "http://blog.adefathudin.com/2021/03/cara-menambahkan-kolom-nomor-pada_21.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/6793122240574135223",
+            "title": "Cara Menambahkan Kolom Nomor Pada DataTable Server Side",
+            "content": "<p>Berikut cara nambahin nomor secara otomatis pada datatable server side.</p><p>Jika kita ingin menggunakan nomor 1, 2, 3, dst. pada tiap-tiap baris datatable client side, maka kita cukup menggunakan looping. Namun bagaimana jika kita menggunakan datatable server side? Berikut caranya:</p><p>Pada saat kita menarik data dari server, kita tambahkan</p><pre style=\"line-height: 125%; margin: 0;\"><span><span>&nbsp;&nbsp; &nbsp;</span><span>&nbsp;&nbsp; &nbsp;</span><span>&nbsp;&nbsp; &nbsp;</span><span>&nbsp;&nbsp; &nbsp;</span>columns<span style=\"color: #666666;\">:</span> [<br />                    <b>{data<span style=\"color: #666666;\">:</span> <span style=\"color: #007020;\">null</span>,<span style=\"color: #4070a0;\">\"sortable\"</span><span style=\"color: #666666;\">:</span> <span style=\"color: #007020;\">false</span>, <br />                        render<span style=\"color: #666666;\">:</span> <span style=\"color: #007020;\">function</span> (data, type, row, meta) {<br />                        <span style=\"color: #007020;\">return</span> meta.row <span style=\"color: #666666;\">+</span> meta.settings._iDisplayStart <span style=\"color: #666666;\">+</span> <span style=\"color: #40a070;\">1</span>;<br />                        }  <br />                    },</b><br />                    {data<span style=\"color: #666666;\">:</span> <span style=\"color: #4070a0;\">'id_surat'</span>, <span style=\"color: #007020; font-weight: bold;\">class</span><span style=\"color: #666666;\">:</span><span style=\"color: #4070a0;\">'text-left'</span>},<br />                    {data<span style=\"color: #666666;\">:</span> <span style=\"color: #4070a0;\">'nama_surat'</span>, <span style=\"color: #007020; font-weight: bold;\">class</span><span style=\"color: #666666;\">:</span><span style=\"color: #4070a0;\">'text-left'</span>}<br />                  ]</span></pre><p>&nbsp;</p><p>dan hasilnya :</p><p>&nbsp;<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\" class=\"tr-caption-container\" style=\"margin-left: auto; margin-right: auto;\"><tbody><tr><td style=\"text-align: center;\"><a href=\"https://1.bp.blogspot.com/-WJlkvNR1A1Y/YFdvZRjVXlI/AAAAAAAAOA0/diDsymI77Eo7p5BJZNA2TzbuIansce8UwCLcBGAsYHQ/s416/Screenshot_8.png\" imageanchor=\"1\" style=\"margin-left: auto; margin-right: auto;\"><img border=\"0\" data-original-height=\"416\" data-original-width=\"386\" src=\"https://1.bp.blogspot.com/-WJlkvNR1A1Y/YFdvZRjVXlI/AAAAAAAAOA0/diDsymI77Eo7p5BJZNA2TzbuIansce8UwCLcBGAsYHQ/s16000/Screenshot_8.png\" /></a></td></tr><tr><td class=\"tr-caption\" style=\"text-align: center;\">Cara Menambahkan Kolom Nomor Pada DataTable Server Side</td></tr></tbody></table><br /><br /></p><pre style=\"line-height: 125%; margin: 0;\"><span>&nbsp;</span></pre>",
+            "author": {
+                "id": "12553472519547786228",
+                "displayName": "Ade Fathudin",
+                "url": "https://www.blogger.com/profile/12553472519547786228",
+                "image": {
+                    "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/6793122240574135223/comments"
+            },
+            "labels": [
+                "DataTable"
+            ],
+            "etag": "\"dGltZXN0YW1wOiAxNjc0NTQ5NTc5NzM5Cm9mZnNldDogMjUyMDAwMDAK\""
+        },
+        {
+            "kind": "blogger#post",
+            "id": "5434254374098848371",
+            "blog": {
+                "id": "8970658099069260089"
+            },
+            "published": "2021-02-01T11:09:00+07:00",
+            "updated": "2023-01-24T15:39:40+07:00",
+            "url": "http://blog.adefathudin.com/2021/01/cara-memperbaiki-typeerror-tablerow-is_31.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/5434254374098848371",
+            "title": "Cara Memperbaiki &quot;Uncaught TypeError: table.row is not a function&quot; jQuery Datatable",
+            "content": "<p>Saya menemukan error Uncaught TypeError: table.row is not a function saat menambahkan event click pada row datatable. Jadi jika saya melakukan click pada salah satu row, maka event akan dijalankan.</p><p>Berikut contoh kodenya yang saya gunakan</p><pre style=\"line-height: 125%; margin: 0px;\"><span style=\"color: #007020; font-weight: bold;\"><span>&nbsp;&nbsp; &nbsp;</span><span>&nbsp;&nbsp; &nbsp;</span>var</span> table <span style=\"color: #666666;\">=</span> $(<span style=\"color: #4070a0;\">'#tableNetwork'</span>).dataTable();<br />        $(<span style=\"color: #4070a0;\">'#tableNetwork tbody'</span>).on( <span style=\"color: #4070a0;\">'click'</span>, <span style=\"color: #4070a0;\">'tr'</span>, <span style=\"color: #007020; font-weight: bold;\">function</span> () {<br />            console.log( <span style=\"color: red;\"><b>table.row</b></span>( <span style=\"color: #007020; font-weight: bold;\">this</span> ).data() );<br />        });</pre><pre style=\"line-height: 125%; margin: 0px;\">&nbsp;</pre><p style=\"line-height: 125%; margin: 0px; text-align: left;\">&nbsp;Ketika saya klik, event tersebut berhasil dijalankan namun terjadi error&nbsp;</p><p style=\"line-height: 125%; margin: 0px; text-align: left;\"><br /></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://1.bp.blogspot.com/-hrcd7rwnRj4/YBd-QNvuuLI/AAAAAAAAN84/VHrID0oqP8ITiqO6aEOmwS5QQ6CTZ5xHACLcBGAsYHQ/s823/Screenshot_1.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"421\" data-original-width=\"823\" src=\"https://1.bp.blogspot.com/-hrcd7rwnRj4/YBd-QNvuuLI/AAAAAAAAN84/VHrID0oqP8ITiqO6aEOmwS5QQ6CTZ5xHACLcBGAsYHQ/s16000/Screenshot_1.png\" /></a></div>Solusinya adalah, dengan menambahkan function api() pada code diatas yang saya beri warna merah.<br /><p style=\"line-height: 125%; margin: 0px; text-align: left;\"><br /></p><p style=\"line-height: 125%; margin: 0px; text-align: left;\">Jika sebelumnya&nbsp;</p><p style=\"line-height: 125%; margin: 0px; text-align: left;\"><br /></p><pre style=\"line-height: 125%; margin: 0px;\">console.log( <span style=\"color: red;\"><b>table.row</b></span>( <span style=\"color: #007020; font-weight: bold;\">this</span> ).data() );</pre><pre style=\"line-height: 125%; margin: 0px;\">&nbsp;</pre><p style=\"line-height: 125%; margin: 0px; text-align: left;\">Maka tambahkan menjadi</p><p style=\"line-height: 125%; margin: 0px; text-align: left;\">&nbsp;</p><pre style=\"line-height: 125%; margin: 0px;\">console.log( <span style=\"color: red;\"><b>table.api().row</b></span>( <span style=\"color: #007020; font-weight: bold;\">this</span> ).data() );</pre><pre style=\"line-height: 125%; margin: 0px;\">&nbsp;</pre><p style=\"line-height: 125%; margin: 0px; text-align: left;\">Dan hasilnya berhasil tidak muncul error <br /></p><pre style=\"line-height: 125%; margin: 0px;\">&nbsp;</pre><pre style=\"line-height: 125%; margin: 0px;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://1.bp.blogspot.com/-Jjg_F3vfr_g/YBd_gw8zQ6I/AAAAAAAAN9E/h6oAVyi0udoWTMKjol6cx3kcprY-wfyywCLcBGAsYHQ/s1198/Screenshot_2.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"345\" data-original-width=\"1198\" src=\"https://1.bp.blogspot.com/-Jjg_F3vfr_g/YBd_gw8zQ6I/AAAAAAAAN9E/h6oAVyi0udoWTMKjol6cx3kcprY-wfyywCLcBGAsYHQ/s16000/Screenshot_2.png\" /></a></div><br />&nbsp;</pre><p style=\"line-height: 125%; margin: 0px; text-align: left;\">&nbsp;</p>",
+            "author": {
+                "id": "12553472519547786228",
+                "displayName": "Ade Fathudin",
+                "url": "https://www.blogger.com/profile/12553472519547786228",
+                "image": {
+                    "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/8970658099069260089/posts/5434254374098848371/comments"
+            },
+            "labels": [
+                "jQuery"
+            ],
+            "etag": "\"dGltZXN0YW1wOiAxNjc0NTQ5NTgwMDYxCm9mZnNldDogMjUyMDAwMDAK\""
+        }
+    ],
+    "etag": "\"MjAyMy0wOC0wNlQwMzowOTozMC41MjFa\""
+}
