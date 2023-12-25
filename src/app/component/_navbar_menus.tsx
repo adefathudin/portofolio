@@ -77,7 +77,7 @@ export default function NavbarMenus() {
       </li>
       <li className="group">
         <a
-          href="/projects"
+          href="/"
           className="text-base text-secondary lg:py-2 lg:mx-8 lg:flex group-hover:text-primary"
         >
           <svg
@@ -101,7 +101,7 @@ export default function NavbarMenus() {
       </li>
       <li className="group">
         <a
-          href="/tools"
+          href="/"
           className="text-base text-secondary lg:py-2 lg:mx-8 lg:flex group-hover:text-primary"
         >
           <svg
@@ -125,7 +125,7 @@ export default function NavbarMenus() {
       </li>
       <li className="group">
         <a
-          href="/products"
+          href="/"
           className="text-base text-secondary lg:py-2 lg:mx-8 lg:flex group-hover:text-primary"
         >
           <svg

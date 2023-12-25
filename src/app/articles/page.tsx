@@ -13,6 +13,15 @@ export default function Articles() {
 
   return (
     <main>
+      <title>Ade Fathudin Official Website</title>
+      <meta
+        name="description"
+        content="Jika kamu tidak sanggup menahan lelahnya belajar maka kamu harus sanggup menahan perihnya kebodohan"
+      />
+      <meta
+        name="keywords"
+        content="ade fathudin, blog adefathudin, adefathudin"
+      />
       <div className="flex flex-col h-screen">
         <Navbar />
         <div className="lg:container">

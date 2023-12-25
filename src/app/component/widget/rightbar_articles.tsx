@@ -13,7 +13,7 @@ export default function RightbarArticles() {
     <div className="shadow border rounded-lg px-4 mb-4">
       <h2 className="block text-slate-900 text-xl pt-4">News Articles</h2>
       <hr className="my-4 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4" />
-      {items.map((item: any) => (
+      {items.map((item: any, i: any) => (
         <>
           <a href={item.url} className="hover:underline" target="_blank">
             <div className="flex flex-wrap">

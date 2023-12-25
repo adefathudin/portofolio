@@ -8,6 +8,16 @@ import RightbarTools from "../component/widget/rightbar_tools";
 export default function Home() {
   return (
     <main>
+      <title>Ade Fathudin Official Website</title>
+      <meta
+        name="description"
+        content="Jika kamu tidak sanggup menahan lelahnya belajar maka kamu harus sanggup menahan perihnya kebodohan"
+      />
+      <meta
+        name="keywords"
+        content="ade fathudin, blog adefathudin, adefathudin"
+      />
+
       <div className="flex flex-col h-screen">
         <Navbar />
         <div className="lg:container">
@@ -275,7 +285,7 @@ export default function Home() {
                               href="mailto:mail@adefathudin.com"
                               className="text-blue-600 dark:text-blue-500 hover:underline"
                             >
-                              mail@adefathudin.com
+                              mail@adefathud.in
                             </a>
                           </div>
                         </div>
@@ -393,9 +403,9 @@ export default function Home() {
               <div className="hidden lg:block w-full lg:w-1/4">
                 <RightbarArticles />
 
-                <RightbarProducts />
+                {/* <RightbarProducts />
 
-                <RightbarTools />
+                <RightbarTools /> */}
               </div>
             </div>
           </div>
