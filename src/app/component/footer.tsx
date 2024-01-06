@@ -3,8 +3,8 @@ export default function Footer() {
     <footer className="mt-auto">
       <div className="mx-auto w-full max-w-screen-xl p-4 lg:py-8">
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div className="lg:flex lg:items-center lg:justify-between">
-          <ul className="text-xs lg:text-sm mb-4 lg:mb-0 text-gray-400 lg:text-gray-500 text-center dark:text-gray-400 flex mt-4 space-x-5 lg:justify-center lg:mt-0">
+        <div className="text-center lg:text-justify lg:flex lg:items-center lg:justify-between">
+          {/* <ul className="text-xs lg:text-sm mb-4 lg:mb-0 text-gray-400 lg:text-gray-500 text-center dark:text-gray-400 flex mt-4 space-x-5 lg:justify-center lg:mt-0">
             <li className="">
               <a href="/profile" className="hover:underline">
                 About
@@ -20,9 +20,9 @@ export default function Footer() {
                 Terms &amp; Conditions
               </a>
             </li>
-          </ul>
+          </ul> */}
           <span className="text-xs lg:text-sm mb-4 lg:mb-0 text-gray-400 lg:text-gray-500 dark:text-gray-400">
-            © 2023{" "}
+            © 2017-{new Date().getFullYear()}{" "}
             <a href="https://www.adefathudin.com/" className="hover:underline">
               Ade Fathudin
             </a>

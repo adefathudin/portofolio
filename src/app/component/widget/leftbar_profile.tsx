@@ -14,7 +14,9 @@ export default function LeftbarProfile() {
         </div>
         <div className="container">
           <div className="w-full py-4 text-center">
-            <h2 className="block font-bold text-slate-900">Ade Fathudin</h2>
+            <h2 className="block font-bold text-slate-900">
+              <a href="/profile">Ade Fathudin</a>
+            </h2>
             <p className="text-slate-500 text-xs">
               IT Product Portal Developer at detik.com
             </p>
